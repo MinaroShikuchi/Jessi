@@ -1,0 +1,25 @@
+{
+  "short_name": "Jessi",
+  "name": "Jessi",
+  "description": "Mutli-tools chrome extensions",
+  "version": "0.0.0",
+  "manifest_version": 3,
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "tabs",
+    "webRequest"
+  ],
+  "host_permissions": [
+    "*://*.instagram.com/"
+  ],
+  "action": {
+    "default_popup": "/index.html"
+  },
+  "icons": {
+    "16": "logo192.png",
+    "48": "logo192.png",
+    "128": "logo192.png"
+  }
+}
