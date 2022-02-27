@@ -1,2 +1,2 @@
 # Jessi
-Mutli-tools chrome extensions
+Mutli-tools chrome extension

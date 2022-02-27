@@ -1,6 +1,6 @@
 {
-    "name": "Getting Started Example",
-    "description": "Build an Extension!",
+    "name": "Jessi",
+    "description": "Mutli-tools chrome extensions",
     "version": "0.0.0",
     "manifest_version": 3,
     "options_page": "/options/options.html",
