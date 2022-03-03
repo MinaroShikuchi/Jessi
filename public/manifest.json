@@ -4,6 +4,9 @@
   "description": "Mutli-tools chrome extensions",
   "version": "0.0.0",
   "manifest_version": 3,
+  "background": {
+    "service_worker": "static/js/background.js"
+},
   "permissions": [
     "storage",
     "activeTab",
@@ -12,7 +15,8 @@
     "webRequest"
   ],
   "host_permissions": [
-    "*://*.instagram.com/"
+    "*://*.instagram.com/",
+    "*://*.notion.com/"
   ],
   "action": {
     "default_popup": "/index.html"
